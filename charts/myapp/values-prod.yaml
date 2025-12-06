@@ -1,0 +1,10 @@
+replicaCount: 3
+image:
+  tag: "1.0.0"
+resources:
+  limits:
+    cpu: "500m"
+    memory: "512Mi"
+ingress:
+  enabled: true
+  host: myapp.example.com
